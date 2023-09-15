@@ -1,0 +1,13 @@
+.navigace {
+  display: inline-block;
+}
+
+.header {
+  background-color: var(--dark-brown);
+  background-image: none;
+  min-height: 70px;
+}
+
+footer {
+  display: flex;
+}

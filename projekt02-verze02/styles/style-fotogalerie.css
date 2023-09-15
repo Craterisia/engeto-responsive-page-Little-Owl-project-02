@@ -1,0 +1,43 @@
+.navigace {
+  display: inline-block;
+}
+
+.header {
+  background-color: var(--dark-brown);
+  background-image: none;
+  min-height: 70px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.image {
+  margin: 10px;
+  transition: transform 0.3s;
+  flex-basis: calc(100% / 3 - 20px);
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.image img:hover {
+  transform: scale(1.5);
+}
+
+footer {
+  display: flex;
+}
